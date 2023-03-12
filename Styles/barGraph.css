@@ -12,19 +12,22 @@
 .div30
 {
 	height:45px;
-	animation: key1 3s 1;
+	background-color: rgb(200,200,200);
+	animation: key1 5s 1;
 }
 
 .div40
 {
 	height:60px;
-	animation: key1 3s 1;
+	background-color: rgb(200,200,200);
+	animation: key1 5s 1;
 }
 
 .div80
 {
 	height:120px;
-	animation: key1 3s 1;
+	background-color: rgb(200,200,200);
+	animation: key1 5s 1;
 }
 
 @keyframes key1
