@@ -1,7 +1,7 @@
 div{
     position: absolute;
     font-size: 20px;
-    top: 40%;
+    top: 20%;
     right: 35%;
     min-width: 350px;
     text-align: center;
@@ -12,8 +12,14 @@ div{
     border:5px solid whitesmoke;
 }
 
-vido {
+video {
     position: fixed;
+    width:100vw;
+    height: 100vh;
+    object-fit: cover;
+    top:0;
+    left:0;
+    z-index: -1;
 }
 
 #body input {
@@ -24,7 +30,6 @@ vido {
 #body input:focus {
     color:white;
     background-color: rgba(0,0,255,0.35);
-    opacity: 0.3;
 }
 
 #body input[type="reset"],
