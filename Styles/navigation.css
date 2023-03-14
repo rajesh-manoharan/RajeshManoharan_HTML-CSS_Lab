@@ -37,12 +37,13 @@ header {
 }
 
 
-.menu .dropdown
+.dropdown
  {
     display: none;
     position: absolute;
     width: auto;
     padding: 0%;
+    top:113px;
     background-color: rgb(226, 216, 216);
 }
 
