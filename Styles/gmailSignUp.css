@@ -1,4 +1,4 @@
-div{
+div {
     position: absolute;
     font-size: 20px;
     top: 20%;
@@ -6,19 +6,19 @@ div{
     min-width: 350px;
     text-align: center;
     vertical-align: middle;
-    padding:50px;
+    padding: 50px;
     line-height: 50px;
     border-radius: 5px;
-    border:5px solid whitesmoke;
+    border: 5px solid whitesmoke;
 }
 
 video {
     position: fixed;
-    width:100vw;
+    width: 100vw;
     height: 100vh;
     object-fit: cover;
-    top:0;
-    left:0;
+    top: 0;
+    left: 0;
     z-index: -1;
 }
 
@@ -27,14 +27,14 @@ video {
     min-width: 100px;
     font-size: 20px;
 }
+
 #body input:focus {
-    color:white;
-    background-color: rgba(0,0,255,0.35);
+    color: white;
+    background-color: rgba(0, 0, 255, 0.35);
 }
 
 #body input[type="reset"],
-#body input[type="Submit"]
-{
+#body input[type="Submit"] {
     margin-top: 10px;
     height: auto;
     width: 70px;
